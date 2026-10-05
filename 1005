@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>1005-css容器設定</title>
+    <style>
+        /* 容器 BOX
+           box-sizing: 預設寬高是 content-box，也可以改成 border-box;
+           由內而外是 content內容(寬高)/padding填充/border框線/margin邊界
+           除了內容，分別可以設定 上top 右right 下botton 左left 
+           框線再分 粗細(width) 樣式(style) 顏色(color)
+           框線樣式常見有四種 solid實線 dashed虛線 dotted點點 double雙線
+           透明的顏色:trans
+        */
+        #d1{
+            width:100px;
+            height:100px;
+            background-color: aqua;
+            border: 5px solid black;
+            /*border-color: rgb(255, 246, 127) red blue green;
+            border-width: 20px 30px 40px 50px;
+            border-style: solid/dashed/dotted/double; */
+            padding: 10px 50px 30px;
+            /* box-sizing:border-box; */
+            margin-bottom: 10px;
+        }
+        #d2 {
+            border: 1px solid black;
+            height: 100px;
+            width: 200px;
+            margin: 20px;
+            border-radius: 50px ;/*絕對單位*/
+        }
+        #d3 {
+            border: 1px solid black;
+            height: 100px;
+            width: 200px;
+            margin: 20px;
+            border-radius: 50%;/*相對單位*/
+        }
+        #d4 {
+            border: 50px solid black;
+            height: 0px;
+            width: 0px;
+            margin: 20px;
+            border-color: red yellow blue green;
+            border-width: 10px 0px 60px 80px;
+        }
+      
+
+    
+    </style>
+</head>
+<body>
+    <div id="d1">123</div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+    <hr>
+
+    <hr>
+
+    
+        
+</body>
+</html>
