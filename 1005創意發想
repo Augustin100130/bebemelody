@@ -1,0 +1,93 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS創意圖：生日蛋糕</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        h2 {
+            color: deeppink;
+        }
+
+        /* 蠟燭 */
+        #candle1 {
+            width: 10px;
+            height: 50px;
+            background-color: lightyellow;
+            border: 2px solid orange;
+            margin: auto;
+        }
+
+        /* 火焰 */
+        #fire {
+            width: 15px;
+            height: 20px;
+            background-color: orange;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        /* 蛋糕最上層 */
+        #cake1 {
+            width: 120px;
+            height: 40px;
+            background-color: pink;
+            border: 2px solid deeppink;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        /* 蛋糕中間層 */
+        #cake2 {
+            width: 180px;
+            height: 50px;
+            background-color: lightpink;
+            border: 2px solid deeppink;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        /* 蛋糕底層 */
+        #cake3 {
+            width: 240px;
+            height: 60px;
+            background-color: hotpink;
+            border: 2px solid deeppink;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        /* 蛋糕盤 */
+        #plate {
+            width: 280px;
+            height: 15px;
+            background-color: silver;
+            border: 2px solid gray;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>🎂 生日快樂 🎂</h2>
+
+    <div id="fire"></div>
+    <div id="candle1"></div>
+
+    <div id="cake1"></div>
+    <div id="cake2"></div>
+    <div id="cake3"></div>
+
+    <div id="plate"></div>
+
+</body>
+</html>
+```
